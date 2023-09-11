@@ -14,9 +14,7 @@ export default function Home() {
 
   useEffect(() => {
     AOS.init()
-  }, [])
 
-  useEffect(() => {
     // ScrollTrigger를 사용하여 스크롤 애니메이션 만들기
     gsap.to(firstRef.current, {
       scrollTrigger: {
