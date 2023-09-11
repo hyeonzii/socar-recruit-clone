@@ -16,7 +16,7 @@ export default function Nav() {
       data-aos='slide-down'
       className='fixed w-full border-b-2 border-white z-30 whitespace-nowrap p-10'
     >
-      <div className='mg-auto w-10/12 flex '>
+      <div className='mg-auto w-10/12 flex justify-center items-center'>
         <div className='w-1/2'>
           <span className='relative cursor-pointer h-6 w-32 inline-block'>
             <Link href='/' className='relative w-full h-full inline-block'>
