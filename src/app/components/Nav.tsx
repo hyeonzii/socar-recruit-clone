@@ -26,14 +26,12 @@ export default function Nav() {
         </div>
         <div className='w-1/2'>
           <ul className='flex gap-5 pointer-cursor'>
-            <li>
-              <Link href='/about'>ABOUT</Link>
-            </li>
+            <li>ABOUT</li>
             <li>
               <Link href='/socarUniverse'>SOCAR UNIVERSE</Link>
             </li>
             <li>MOBILITY TECH</li>
-            <li>CAREERS</li>
+            <Link href='/careers'>CAREERS</Link>
             <li>IR</li>
             <li>NEWS</li>
           </ul>
